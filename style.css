@@ -132,3 +132,62 @@ body {
     font-size: 20px;
     background-color: #2b2626;
 }
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 350px 2px 350px;
+    width: auto;
+    height: 196px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.set1 {
+    width: 60px;
+    height: 60px;
+
+    position: absolute;
+    top: 30px;
+    left: 112px;
+}
+
+.set1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.set2 {
+    color: white;
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    top: 35px;
+    left: 181px;
+}
+
+.set2 h3 {
+    padding: 9px;
+    font-size: 31px;
+}
+
+.set3 {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 174px;
+    width: 890px;
+    height: 53px;
+    text-align: center;
+    background-color: #2b2626;
+    padding: 10px 16px;
+}
+
+.set3 span {
+    padding: 0px 53px;
+    font-size: 20px;
+}
