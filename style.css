@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    margin: 0 350px 10px 350px;
+    margin: 100px 350px 10px 350px;
     width: auto;
     height: 500px;
     position: relative;
@@ -190,4 +190,180 @@ body {
 .set3 span {
     padding: 0px 53px;
     font-size: 20px;
+}
+
+.pre-cont4{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 9px;
+    margin: 0 350px 2px 350px;
+    width: auto;
+    height: 70px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.preclass1 {
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 112px;
+}
+
+.preclass1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.preclass2{
+    /* border: 2px solid red; */
+    color: white;
+    width: 230px;
+    height: 60px;
+    padding: 9px;
+    font-size: 31px;
+    position: absolute;
+    position: absolute;
+    top: 35px;
+    left: 181px;
+}
+
+.container4 {
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap: 30px;
+    margin: 30px 350px 10px 350px;
+    width: auto;
+    height: 800px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.pro1 {
+    background-image: url(img/netflix.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: none;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.pro1:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    z-index: 10;
+}
+
+
+.pro2 {
+    background-image: url(img/food-img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.pro2:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    z-index: 10;
+}
+
+.pro3 {
+    background-image: url(img/fitness.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.pro3:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    z-index: 10;
+}
+
+.pro4 {
+    background-image: url(img/shivmax.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.pro4:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    z-index: 10;
+}
+
+.pro5 {
+    background-image: url(img/music.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.pro5:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    z-index: 10;
+}
+
+.pro6 {
+    background-image: url(img/health.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.pro6:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    z-index: 10;
 }
